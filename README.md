@@ -46,9 +46,3 @@ with open(db_path / 'transducers/openlifu_2x400_evt1_005/openlifu_2x400_evt1_005
 print(f"Loaded: {transducer['name']}")
 print(f"Elements: {len(transducer['elements'])}")
 ```
-
----
-
-## 📋 TOPICS/TAGS TO ADD
-
-When you create the repo, add these topics:
