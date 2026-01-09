@@ -76,10 +76,10 @@ python scripts/validate_database.py
 
 ## 📚 Documentation
 
-- [Database Schema](docs/database-schema.md) - JSON schema definitions
-- [Transducer Specifications](docs/transducer-specs.md) - Detailed comparison
-- [Protocol Guide](docs/protocol-guide.md) - Creating custom protocols
-- [Getting Started](docs/getting-started.md) - Tutorial for new users
+- Database Schema - JSON schema definitions
+- Transducer Specifications - Detailed comparison
+- Protocol Guide - Creating custom protocols
+- Getting Started - Tutorial for new users
 
 ## 🔗 Related Repositories
 
