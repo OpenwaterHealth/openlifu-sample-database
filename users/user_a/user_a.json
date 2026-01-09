@@ -1,0 +1,10 @@
+{
+    "id": "user_a",
+    "password_hash": "$2b$12$YwK47.mHalOZEnNI0/up0Ouwywx0/yLkNOwi.ANS299OVB3Ld/wai",
+    "roles": [
+        "operator",
+        "role_a"
+    ],
+    "name": "User with role_a",
+    "description": ""
+}
