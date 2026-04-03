@@ -48,6 +48,8 @@ Example subject records showing data structure for patient/subject information.
 
 Example user account structures for system access control.
 
+There is an example admin user (username `example_admin`, password "example") to get started.
+
 ## 🚀 Quick Start
 
 ### Loading Transducer Configuration
