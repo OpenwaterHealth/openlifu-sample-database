@@ -1,10 +1,10 @@
-# OpenLIFU Sample Database
+# Open-LIFU Sample Database
 
-Example database structure for the OpenLIFU (Low-Intensity Focused Ultrasound) system.
+Example database structure for the Open-LIFU (Low-Intensity Focused Ultrasound) system.
 
 ## 🎯 Purpose
 
-This repository provides a **reference database structure** for OpenLIFU, including:
+This repository provides a **reference database structure** for Open-LIFU, including:
 - Transducer array configurations
 - Treatment protocol definitions
 - Example subject records
