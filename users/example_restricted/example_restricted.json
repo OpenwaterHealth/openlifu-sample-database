@@ -1,7 +1,0 @@
-{
-    "id": "example_restricted",
-    "password_hash": "$2b$12$gQgbRtsCigXd8A3sZx7lB.omsHnPA.M2ybs7wsKWXMQ00Swh1o2fq",
-    "roles": [],
-    "name": "RestrictedFirst RestrictedMiddle RestrictedLast",
-    "description": "example_restricted is an example of a user with no roles; under the user roles system, this situation wouldn't make much sense. However, we should make sure nothing works for this user. The password_hash was made simple for debugging purposes."
-}
