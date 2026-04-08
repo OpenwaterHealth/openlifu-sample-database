@@ -1,0 +1,11 @@
+{
+    "id": "complex_user",
+    "password_hash": "$2b$12$plv8LLTE2zBFZHO.Il4PDOv35pqFCWM2zNBHup1DASBUioz.Z0J36",
+    "roles": [
+        "made_up_role1",
+        "admin",
+        "operator"
+    ],
+    "name": "I am a complex user",
+    "description": "This shouldn't cause any issues in the OpenLIFU app"
+}

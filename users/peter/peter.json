@@ -1,0 +1,10 @@
+{
+    "id": "peter",
+    "password_hash": "$2b$12$ryesjMX6jwvN.jWjpUpeOOCCBY62rmoSRFuSsU85E/qH8ckOnMU2W",
+    "roles": [
+        "admin",
+        "peter"
+    ],
+    "name": "Peter",
+    "description": "special access"
+}

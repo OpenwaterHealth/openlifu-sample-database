@@ -1,0 +1,9 @@
+{
+    "id": "example_operator",
+    "password_hash": "$2b$12$L9SlLL1VkJKHauAfV9u.b.zVHohJNlLEe0APjr7oT15ynywyZZ1EC",
+    "roles": [
+        "operator"
+    ],
+    "name": "Example Operator",
+    "description": "Example \"operator\" account. Operators do not have admin access."
+}
