@@ -69,6 +69,9 @@ Example subject records showing the full data hierarchy. Each subject can have m
 
 Example user account structures for system access control.
 
+There is an example admin user (username `example_admin`, password "example") to get started.
+
+## 🚀 Quick Start
 #### Test Credentials
 
 The user JSON files contain password hashes. For testing purposes, the plaintext passwords are:
