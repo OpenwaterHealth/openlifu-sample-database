@@ -1,48 +1,69 @@
 # OpenLIFU Sample Database
 
-Example database structure for the OpenLIFU (Low-Intensity Focused Ultrasound) system.
+Example database for the [OpenLIFU](https://github.com/OpenwaterHealth) (Low-Intensity Focused Ultrasound) platform. This repository contains transducer configurations, treatment protocols, example subject records with session data, system definitions, and user account structures.
 
-## 🎯 Purpose
+## Purpose
 
-This repository provides a **reference database structure** for OpenLIFU, including:
-- Transducer array configurations
-- Treatment protocol definitions
-- Example subject records
-- User account structures
+This repository provides a reference database structure for OpenLIFU, intended for community contributors, researchers, and developers building OpenLIFU applications. All data is synthetic example data — no real patient information is included.
 
-**Intended for:** Community contributors, researchers, and developers building OpenLIFU applications.
+## Directory Structure
 
-## 📦 Contents
+```
+.
+├── protocols/          # Treatment protocol definitions
+├── subjects/           # Subject records, sessions, and derived data
+│   └── <subject_id>/
+│       ├── sessions/
+│       │   └── <session_id>/
+│       │       ├── photocollections/   # Raw photo sets for 3D reconstruction
+│       │       ├── photoscans/         # Reconstructed 3D meshes (.obj, .mtl, .png)
+│       │       ├── solutions/          # Simulation results (.json, .nc)
+│       │       └── runs/               # Treatment run logs and snapshots
+│       └── volumes/                    # Imaging volumes (NIfTI)
+├── systems/            # Hardware system configurations
+├── transducers/        # Transducer array configurations and 3D models
+└── users/              # User account structures
+```
+
+## Contents
 
 ### Transducers (`/transducers/`)
 
 Configuration files and 3D models for OpenLIFU transducer arrays:
 
-| Transducer ID | Name | Frequency | Elements |
-|---------------|------|-----------|----------|
-| openlifu_2x400_evt1_005 | OpenLIFU 2x 400kHz EVT1 S/N 005 | 400kHz | 2x16 |
-| openlifu_2x400_evt1 | OpenLIFU 2x 400kHz EVT1 | 400kHz | 2x16 |
-| openlifu_2x400_evt2a | OpenLIFU 2x 400kHz EVT2a | 400kHz | 2x16 |
-| openlifu_2x180_evt1 | OpenLIFU 2x 180kHz EVT1 | 180kHz | 2x16 |
-| openlifu_1x400_evt1 | OpenLIFU 1x 400kHz EVT1 | 400kHz | 16 |
-| openlifu_1x180_evt1 | OpenLIFU 1x 180kHz Demo | 180kHz | 16 |
+| Transducer ID | Name | Frequency |
+|---------------|------|-----------|
+| openlifu_1x180_evt1 | OpenLIFU 1x 180kHz Demo | 180 kHz |
+| openlifu_1x400_evt1 | OpenLIFU 1x 400kHz EVT1 | 400 kHz |
+| openlifu_2x180_evt1 | OpenLIFU 2x 180kHz EVT1 | 180 kHz |
+| openlifu_2x400_evt0 | OpenLIFU 2x 400kHz EVT0 | 400 kHz |
+| openlifu_2x400_evt1 | OpenLIFU 2x 400kHz EVT1 | 400 kHz |
+| openlifu_2x400_evt2b | OpenLIFU 2x 400kHz EVT2b | 400 kHz |
 
-Each transducer folder contains:
-- `.json` - Array configuration (element positions, orientations)
-- `.obj` - 3D models (body and surface meshes in LPS coordinates)
+Each transducer folder contains a `.json` configuration (element positions, orientations) and `.obj` 3D models (body and surface meshes in LPS coordinates).
 
 ### Protocols (`/protocols/`)
 
 Treatment protocol definitions:
 
-| Protocol | Application | Frequency | Pulse Duration | Pressure |
-|----------|-------------|-----------|----------------|----------|
-| oncolysis_demo | Oncolysis | 180 kHz | 40 ms | 73 kPa |
+| Protocol | Application | Frequency | Pulse Duration | Target Pressure |
+|----------|-------------|-----------|----------------|-----------------|
 | neuromod_demo | Neuromodulation | 400 kHz | 5 ms | 100 kPa |
+| oncolysis_demo | Oncolysis | 180 kHz | 40 ms | 73 kPa |
+
+### Systems (`/systems/`)
+
+Hardware system configurations, including the Verasonics Vantage HIFU system definition.
 
 ### Subjects (`/subjects/`)
 
-Example subject records showing data structure for patient/subject information.
+Example subject records showing the full data hierarchy. Each subject can have multiple treatment sessions, and each session can include:
+
+- **Photocollections** — raw photo sets (JPEG) used for photogrammetric 3D reconstruction of the subject's head
+- **Photoscans** — reconstructed 3D mesh outputs (OBJ/MTL/PNG texture)
+- **Solutions** — acoustic simulation results stored as JSON metadata and NetCDF (`.nc`) data files
+- **Runs** — treatment execution logs with protocol and session snapshots
+- **Volumes** — medical imaging data (NIfTI format)
 
 ### Users (`/users/`)
 
@@ -51,102 +72,70 @@ Example user account structures for system access control.
 There is an example admin user (username `example_admin`, password "example") to get started.
 
 ## 🚀 Quick Start
+#### Test Credentials
 
-### Loading Transducer Configuration
+The user JSON files contain password hashes. For testing purposes, the plaintext passwords are:
+
+- `complex_user` / `complex_user_hash`
+- `example_admin` / `example_admin_hash`
+- `example_operator` / `example_operator_hash`
+- `example_restricted` / `example_restricted_hash`
+
+## Data Formats
+
+- **JSON** — configuration and metadata (UTF-8, pretty-printed)
+- **OBJ/MTL** — 3D models (ASCII format, LPS coordinate system)
+- **NetCDF (.nc)** — simulation result arrays
+- **NIfTI (.nii)** — medical imaging volumes
+- **JPEG** — photocollection images
+- **PNG** — texture maps for 3D meshes
+- **VTK** — visualization data
+
+Coordinates use the LPS (Left-Posterior-Superior) system, consistent with 3D Slicer.
+
+## Quick Start
+
 ```python
 import json
 
-# Load transducer config
-with open('transducers/openlifu_2x400_evt1_005/openlifu_2x400_evt1_005.json') as f:
+# Load a transducer configuration
+with open('transducers/openlifu_2x400_evt1/openlifu_2x400_evt1.json') as f:
     transducer = json.load(f)
 
 print(f"Transducer: {transducer['name']}")
 print(f"Elements: {len(transducer['elements'])}")
 ```
 
-### Visualizing 3D Models
-```python
-# Visualize .obj files with your preferred 3D viewer
-# Compatible with: 3D Slicer, MeshLab, Blender, etc.
-```
+## Git LFS
 
-### Validating Database Structure
+Large binary files (`.obj`, `.stl`, `.mat`, `.h5`, `.nli`, `.nii`, `.nii.gz`) are tracked with Git LFS. After cloning, run:
+
 ```bash
-# Run validation script
-python scripts/validate_database.py
+git lfs pull
 ```
 
-## 📚 Documentation
+## Related Repositories
 
-- Database Schema - JSON schema definitions
-- Transducer Specifications - Detailed comparison
-- Protocol Guide - Creating custom protocols
-- Getting Started - Tutorial for new users
+**Software:** [OpenLIFU-python](https://github.com/OpenwaterHealth/OpenLIFU-python) | [OpenLIFU-api](https://github.com/OpenwaterHealth/OpenLIFU-api) | [SlicerOpenLIFU](https://github.com/OpenwaterHealth/SlicerOpenLIFU)
 
-## 🔗 Related Repositories
+**Hardware:** [OpenLIFU-hardware-mechanical](https://github.com/OpenwaterHealth/OpenLIFU-hardware-mechanical) | [OpenLIFU-hardware-electrical](https://github.com/OpenwaterHealth/OpenLIFU-hardware-electrical)
 
-### Software
-- [OpenLIFU-python](https://github.com/OpenwaterHealth/OpenLIFU-python) - Python library to use this data
-- [OpenLIFU-api](https://github.com/OpenwaterHealth/OpenLIFU-api) - REST API
-- [SlicerOpenLIFU](https://github.com/OpenwaterHealth/SlicerOpenLIFU) - 3D Slicer extension
+**Documentation:** [OpenLIFU-docs](https://github.com/OpenwaterHealth/OpenLIFU-docs) | [OpenLIFU-examples](https://github.com/OpenwaterHealth/OpenLIFU-examples)
 
-### Hardware
-- [OpenLIFU-hardware-mechanical](https://github.com/OpenwaterHealth/OpenLIFU-hardware-mechanical) - CAD files
-- [OpenLIFU-hardware-electrical](https://github.com/OpenwaterHealth/OpenLIFU-hardware-electrical) - Schematics
+## Contributing
 
-### Documentation
-- [OpenLIFU-docs](https://github.com/OpenwaterHealth/OpenLIFU-docs) - Platform documentation
-- [OpenLIFU-examples](https://github.com/OpenwaterHealth/OpenLIFU-examples) - Code examples
+We welcome contributions. See the shared [CONTRIBUTING.md](https://github.com/OpenwaterHealth/openwater-commons/blob/main/CONTRIBUTING.md) for guidelines. To add new data, follow the existing directory structure, validate JSON files, and submit a pull request.
 
-## 🤝 Contributing
+## License
 
-We welcome contributions! See [CONTRIBUTING.md](https://github.com/OpenwaterHealth/openwater-commons/blob/main/CONTRIBUTING.md)
+Database contents are licensed under CC-BY-4.0 (Creative Commons Attribution 4.0). See [LICENSE](LICENSE) for details.
 
-**To add new data:**
-1. Follow existing structure (see DATABASE-STRUCTURE.md)
-2. Validate JSON against schemas
-3. Include README in new folders
-4. Submit pull request
+## Data Privacy
 
-## 📊 Data Format
+This repository contains **example data only** — no real patient information, no proprietary transducer designs. Safe for public distribution and suitable as a template for your own data.
 
-All data follows standardized formats:
-- **JSON** - Configuration and metadata (UTF-8, pretty-printed)
-- **OBJ** - 3D models (ASCII format, LPS coordinate system)
-- **Coordinates** - LPS (Left-Posterior-Superior) as used in 3D Slicer
+## Support
 
-## 📜 License
-
-**Database contents:** CC-BY-4.0 (Creative Commons Attribution 4.0)
-- ✅ Use for any purpose
-- ✅ Modify and redistribute
-- ✅ Commercial use allowed
-- ✅ Attribution required
-
-See [LICENSE](LICENSE) for details.
-
-## 🔒 Data Privacy
-
-⚠️ **This is EXAMPLE DATA ONLY**
-- No real patient information
-- No proprietary transducer designs
-- Safe for public distribution
-- Use as template for your own data
-
-## 🆘 Support
-
-- **Issues:** [GitHub Issues](https://github.com/OpenwaterHealth/OpenLIFU-sample-database/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/OpenwaterHealth/OpenLIFU-sample-database/discussions)
-- **Discord:** [#openlifu channel](https://discord.gg/openwater)
-- **Documentation:** [docs.openwater.health](https://docs.openwater.health)
-
-## 📦 File Sizes & Git LFS
-
-Large binary files (`.obj` 3D models) are stored using Git LFS:
-- Clone with: `git lfs pull`
-- Binary files tracked in `.gitattributes`
-- See [Git LFS docs](https://git-lfs.github.com/) for more info
-
----
-
-**Example database structure for the OpenLIFU open-source ultrasound platform** 🔬🧠
+- [GitHub Issues](https://github.com/OpenwaterHealth/openlifu-sample-database/issues)
+- [GitHub Discussions](https://github.com/OpenwaterHealth/openlifu-sample-database/discussions)
+- [Discord #openlifu channel](https://discord.gg/openwater)

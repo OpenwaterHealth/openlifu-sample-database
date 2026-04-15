@@ -1,0 +1,9 @@
+{
+    "id": "sample_admin",
+    "password_hash": "$2b$12$G6NcmYOA9jmvK0ddFyPVp.WrrNjDDyzmdWAmObPa4Uxx9jWqEP0wy",
+    "roles": [
+        "admin"
+    ],
+    "name": "Sample Administrator",
+    "description": ""
+}
