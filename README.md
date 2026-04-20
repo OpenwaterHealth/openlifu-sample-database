@@ -81,34 +81,34 @@ This example file structure contains large files. In order to upload the sample 
 
 Open your system's command prompt. Run: 
 
-.. code:: sh 
-
-git lfs install 
+```cmd
+git lfs install
+```
 
 #### Step 2: 
 
 Clone the sample database repository. Run: 
 
-.. code:: sh 
+```cmd
 
 git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git 
-
+```
 #### Step 3: 
 
 Go into the repo. Run: 
 
-..code:: sh 
+```cmd
 
 cd openlifu-sample-database 
-
+```
 #### Step 4: 
 
 Pull the large files. Run: 
 
-..code:: sh 
+```cmd
 
 git lfs pull 
-
+```
 #### Test Credentials
 
 The user JSON files contain password hashes. For testing purposes, the plaintext passwords are:
