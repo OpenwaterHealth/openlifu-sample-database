@@ -72,6 +72,43 @@ Example user account structures for system access control.
 There is an example admin user (username `example_admin`, password "example") to get started.
 
 ## 🚀 Quick Start
+
+#### Upload Instructions 
+
+This example file structure contains large files. In order to upload the sample database, please go through the following instructions: 
+
+#### Step 1: 
+
+Open your system's command prompt. Run: 
+
+.. code:: sh 
+
+git lfs install 
+
+#### Step 2: 
+
+Clone the sample database repository. Run: 
+
+.. code:: sh 
+
+git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git 
+
+#### Step 3: 
+
+Go into the repo. Run: 
+
+..code:: sh 
+
+cd openlifu-sample-database 
+
+#### Step 4: 
+
+Pull the large files. Run: 
+
+..code:: sh 
+
+git lfs pull 
+
 #### Test Credentials
 
 The user JSON files contain password hashes. For testing purposes, the plaintext passwords are:
