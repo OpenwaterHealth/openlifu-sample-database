@@ -1,6 +1,6 @@
 # OpenLIFU Sample Database
 
-Example database for the [OpenLIFU](https://github.com/OpenwaterHealth) (Low-Intensity Focused Ultrasound) platform. This repository contains transducer configurations, treatment protocols, example subject records with session data, system definitions, and user account structures.
+Example database for the [OpenLIFU](https://github.com/OpenwaterHealth) (Low-Intensity Focused Ultrasound) platform. This repository contains transducer configurations, treatment protocols, example subject records with session data, and user account structures.
 
 ## Purpose
 
@@ -20,7 +20,6 @@ This repository provides a reference database structure for OpenLIFU, intended f
 │       │       ├── solutions/          # Simulation results (.json, .nc)
 │       │       └── runs/               # Treatment run logs and snapshots
 │       └── volumes/                    # Imaging volumes (NIfTI)
-├── systems/            # Hardware system configurations
 ├── transducers/        # Transducer array configurations and 3D models
 └── users/              # User account structures
 ```
@@ -51,10 +50,6 @@ Treatment protocol definitions:
 | neuromod_demo | Neuromodulation | 400 kHz | 5 ms | 100 kPa |
 | oncolysis_demo | Oncolysis | 180 kHz | 40 ms | 73 kPa |
 
-### Systems (`/systems/`)
-
-Hardware system configurations, including the Verasonics Vantage HIFU system definition.
-
 ### Subjects (`/subjects/`)
 
 Example subject records showing the full data hierarchy. Each subject can have multiple treatment sessions, and each session can include:
@@ -69,74 +64,63 @@ Example subject records showing the full data hierarchy. Each subject can have m
 
 Example user account structures for system access control.
 
-There is an example admin user (username `example_admin`, password "example") to get started.
+The user JSON files contain bcrypt password hashes. To get started, an example admin user is provided: username `example_admin`, plaintext password `example`. A second user, `sample_admin`, also exists; its plaintext password is not published with this repository.
 
-## 🚀 Quick Start
+## Cloning
 
-#### Upload Instructions 
+This repository contains large files tracked with Git LFS. To clone:
 
-This example file structure contains large files. In order to upload the sample database, please go through the following instructions: 
+#### Step 1
 
-#### Step 1: 
-
-Open your system's command prompt. Run: 
+Make sure Git LFS is installed:
 
 ```cmd
 git lfs install
 ```
 
-#### Step 2: 
+#### Step 2
 
-Clone the sample database repository. Run: 
-
-```cmd
-
-git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git 
-```
-#### Step 3: 
-
-Go into the repo. Run: 
+Clone the sample database repository:
 
 ```cmd
-
-cd openlifu-sample-database 
+git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git
 ```
-#### Step 4: 
 
-Pull the large files. Run: 
+#### Step 3
+
+Go into the repo:
 
 ```cmd
-
-git lfs pull 
+cd openlifu-sample-database
 ```
-#### Test Credentials
 
-The user JSON files contain password hashes. For testing purposes, the plaintext passwords are:
+#### Step 4
 
-- `complex_user` / `complex_user_hash`
-- `example_admin` / `example_admin_hash`
-- `example_operator` / `example_operator_hash`
-- `example_restricted` / `example_restricted_hash`
+Pull the large files:
+
+```cmd
+git lfs pull
+```
 
 ## Data Formats
 
 - **JSON** — configuration and metadata (UTF-8, pretty-printed)
 - **OBJ/MTL** — 3D models (ASCII format, LPS coordinate system)
+- **STL** — 3D models (alternative to OBJ for some transducer surfaces)
 - **NetCDF (.nc)** — simulation result arrays
 - **NIfTI (.nii)** — medical imaging volumes
 - **JPEG** — photocollection images
 - **PNG** — texture maps for 3D meshes
-- **VTK** — visualization data
 
 Coordinates use the LPS (Left-Posterior-Superior) system, consistent with 3D Slicer.
 
-## Quick Start
+## Python Quick Start
 
 ```python
 import json
 
 # Load a transducer configuration
-with open('transducers/openlifu_2x400_evt1/openlifu_2x400_evt1.json') as f:
+with open('transducers/openlifu_1x400_evt1/openlifu_1x400_evt1.json') as f:
     transducer = json.load(f)
 
 print(f"Transducer: {transducer['name']}")
@@ -145,7 +129,7 @@ print(f"Elements: {len(transducer['elements'])}")
 
 ## Git LFS
 
-Large binary files (`.obj`, `.stl`, `.mat`, `.h5`, `.nli`, `.nii`, `.nii.gz`) are tracked with Git LFS. After cloning, run:
+Large binary files (`.obj`, `.stl`, `.nii`, `.nii.gz`, `.nc`, `.vtk`, `.zip`, `.mat`, `.h5`, `.nli`) are tracked with Git LFS. After cloning, run:
 
 ```bash
 git lfs pull
