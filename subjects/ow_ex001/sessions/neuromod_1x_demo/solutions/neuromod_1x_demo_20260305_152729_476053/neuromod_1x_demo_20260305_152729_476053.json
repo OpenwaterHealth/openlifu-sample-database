@@ -22,9 +22,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 1,
                 "units": "mm"
             },
@@ -44,9 +42,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 2,
                 "units": "mm"
             },
@@ -66,9 +62,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 3,
                 "units": "mm"
             },
@@ -88,9 +82,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 4,
                 "units": "mm"
             },
@@ -110,9 +102,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 5,
                 "units": "mm"
             },
@@ -132,9 +122,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 6,
                 "units": "mm"
             },
@@ -154,9 +142,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 7,
                 "units": "mm"
             },
@@ -176,9 +162,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 8,
                 "units": "mm"
             },
@@ -198,9 +182,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 9,
                 "units": "mm"
             },
@@ -220,9 +202,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 10,
                 "units": "mm"
             },
@@ -242,9 +222,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 11,
                 "units": "mm"
             },
@@ -264,9 +242,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 12,
                 "units": "mm"
             },
@@ -286,9 +262,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 13,
                 "units": "mm"
             },
@@ -308,9 +282,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 14,
                 "units": "mm"
             },
@@ -330,9 +302,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 15,
                 "units": "mm"
             },
@@ -352,9 +322,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 16,
                 "units": "mm"
             },
@@ -374,9 +342,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 17,
                 "units": "mm"
             },
@@ -396,9 +362,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 18,
                 "units": "mm"
             },
@@ -418,9 +382,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 19,
                 "units": "mm"
             },
@@ -440,9 +402,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 20,
                 "units": "mm"
             },
@@ -462,9 +422,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 21,
                 "units": "mm"
             },
@@ -484,9 +442,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 22,
                 "units": "mm"
             },
@@ -506,9 +462,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 23,
                 "units": "mm"
             },
@@ -528,9 +482,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 24,
                 "units": "mm"
             },
@@ -550,9 +502,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 25,
                 "units": "mm"
             },
@@ -572,9 +522,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 26,
                 "units": "mm"
             },
@@ -594,9 +542,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 27,
                 "units": "mm"
             },
@@ -616,9 +562,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 28,
                 "units": "mm"
             },
@@ -638,9 +582,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 29,
                 "units": "mm"
             },
@@ -660,9 +602,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 30,
                 "units": "mm"
             },
@@ -682,9 +622,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 31,
                 "units": "mm"
             },
@@ -704,9 +642,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 32,
                 "units": "mm"
             },
@@ -726,9 +662,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 33,
                 "units": "mm"
             },
@@ -748,9 +682,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 34,
                 "units": "mm"
             },
@@ -770,9 +702,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 35,
                 "units": "mm"
             },
@@ -792,9 +722,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 36,
                 "units": "mm"
             },
@@ -814,9 +742,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 37,
                 "units": "mm"
             },
@@ -836,9 +762,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 38,
                 "units": "mm"
             },
@@ -858,9 +782,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 39,
                 "units": "mm"
             },
@@ -880,9 +802,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 40,
                 "units": "mm"
             },
@@ -902,9 +822,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 41,
                 "units": "mm"
             },
@@ -924,9 +842,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 42,
                 "units": "mm"
             },
@@ -946,9 +862,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 43,
                 "units": "mm"
             },
@@ -968,9 +882,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 44,
                 "units": "mm"
             },
@@ -990,9 +902,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 45,
                 "units": "mm"
             },
@@ -1012,9 +922,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 46,
                 "units": "mm"
             },
@@ -1034,9 +942,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 47,
                 "units": "mm"
             },
@@ -1056,9 +962,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 48,
                 "units": "mm"
             },
@@ -1078,9 +982,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 49,
                 "units": "mm"
             },
@@ -1100,9 +1002,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 50,
                 "units": "mm"
             },
@@ -1122,9 +1022,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 51,
                 "units": "mm"
             },
@@ -1144,9 +1042,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 52,
                 "units": "mm"
             },
@@ -1166,9 +1062,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 53,
                 "units": "mm"
             },
@@ -1188,9 +1082,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 54,
                 "units": "mm"
             },
@@ -1210,9 +1102,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 55,
                 "units": "mm"
             },
@@ -1232,9 +1122,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 56,
                 "units": "mm"
             },
@@ -1254,9 +1142,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 57,
                 "units": "mm"
             },
@@ -1276,9 +1162,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 58,
                 "units": "mm"
             },
@@ -1298,9 +1182,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 59,
                 "units": "mm"
             },
@@ -1320,9 +1202,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 60,
                 "units": "mm"
             },
@@ -1342,9 +1222,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 61,
                 "units": "mm"
             },
@@ -1364,9 +1242,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 62,
                 "units": "mm"
             },
@@ -1386,9 +1262,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 63,
                 "units": "mm"
             },
@@ -1408,9 +1282,7 @@
                     4.7,
                     4.7
                 ],
-                "sensitivity": null,
-                "impulse_response": null,
-                "impulse_dt": null,
+                "sensitivity": 1.0,
                 "pin": 64,
                 "units": "mm"
             }
@@ -1447,8 +1319,8 @@
             ]
         ],
         "sensitivity": 1000.0,
-        "impulse_response": null,
-        "impulse_dt": null,
+        "crosstalk_frac": 0.0,
+        "crosstalk_dist": 0.0,
         "module_invert": [
             false
         ]

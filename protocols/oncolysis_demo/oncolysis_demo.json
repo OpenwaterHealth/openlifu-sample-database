@@ -6,10 +6,10 @@
     "pulse": {
         "frequency": 180000,
         "amplitude": 1.0,
-        "duration": 0.040
+        "duration": 0.04
     },
     "sequence": {
-        "pulse_interval": 0.400,
+        "pulse_interval": 0.4,
         "pulse_count": 300,
         "pulse_train_interval": 0,
         "pulse_train_count": 1
@@ -18,7 +18,8 @@
         "target_pressure": 73000,
         "units": "Pa",
         "class": "SinglePoint"
-    },"sim_setup": {
+    },
+    "sim_setup": {
         "spacing": 1.0,
         "units": "mm",
         "x_extent": [
@@ -174,7 +175,8 @@
         "planefit_dyaw_extent": 15.0,
         "planefit_dyaw_step": 3.0,
         "planefit_dpitch_extent": 15.0,
-        "planefit_dpitch_step": 3.0
+        "planefit_dpitch_step": 3.0,
+        "top_n_candidates": 4
     },
     "analysis_options": {
         "standoff_sound_speed": 1500.0,

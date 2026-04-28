@@ -22,9 +22,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 1,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 2,
@@ -42,9 +42,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 2,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 3,
@@ -62,9 +62,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 3,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 4,
@@ -82,9 +82,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 4,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 5,
@@ -102,9 +102,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 5,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 6,
@@ -122,9 +122,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 6,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 7,
@@ -142,9 +142,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 7,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 8,
@@ -162,9 +162,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 8,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 9,
@@ -182,9 +182,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 9,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 10,
@@ -202,9 +202,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 10,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 11,
@@ -222,9 +222,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 11,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 12,
@@ -242,9 +242,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 12,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 13,
@@ -262,9 +262,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 13,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 14,
@@ -282,9 +282,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 14,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 15,
@@ -302,9 +302,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 15,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 16,
@@ -322,9 +322,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 16,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 17,
@@ -342,9 +342,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 17,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 18,
@@ -362,9 +362,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 18,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 19,
@@ -382,9 +382,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 19,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 20,
@@ -402,9 +402,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 20,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 21,
@@ -422,9 +422,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 21,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 22,
@@ -442,9 +442,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 22,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 23,
@@ -462,9 +462,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 23,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 24,
@@ -482,9 +482,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 24,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 25,
@@ -502,9 +502,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 25,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 26,
@@ -522,9 +522,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 26,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 27,
@@ -542,9 +542,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 27,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 28,
@@ -562,9 +562,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 28,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 29,
@@ -582,9 +582,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 29,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 30,
@@ -602,9 +602,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 30,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 31,
@@ -622,9 +622,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 31,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 32,
@@ -642,9 +642,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 32,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 33,
@@ -662,9 +662,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 33,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 34,
@@ -682,9 +682,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 34,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 35,
@@ -702,9 +702,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 35,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 36,
@@ -722,9 +722,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 36,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 37,
@@ -742,9 +742,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 37,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 38,
@@ -762,9 +762,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 38,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 39,
@@ -782,9 +782,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 39,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 40,
@@ -802,9 +802,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 40,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 41,
@@ -822,9 +822,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 41,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 42,
@@ -842,9 +842,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 42,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 43,
@@ -862,9 +862,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 43,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 44,
@@ -882,9 +882,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 44,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 45,
@@ -902,9 +902,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 45,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 46,
@@ -922,9 +922,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 46,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 47,
@@ -942,9 +942,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 47,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 48,
@@ -962,9 +962,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 48,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 49,
@@ -982,9 +982,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 49,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 50,
@@ -1002,9 +1002,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 50,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 51,
@@ -1022,9 +1022,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 51,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 52,
@@ -1042,9 +1042,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 52,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 53,
@@ -1062,9 +1062,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 53,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 54,
@@ -1082,9 +1082,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 54,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 55,
@@ -1102,9 +1102,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 55,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 56,
@@ -1122,9 +1122,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 56,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 57,
@@ -1142,9 +1142,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 57,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 58,
@@ -1162,9 +1162,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 58,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 59,
@@ -1182,9 +1182,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 59,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 60,
@@ -1202,9 +1202,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 60,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 61,
@@ -1222,9 +1222,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 61,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 62,
@@ -1242,9 +1242,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 62,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 63,
@@ -1262,9 +1262,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 63,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 64,
@@ -1282,9 +1282,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 64,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 65,
@@ -1302,9 +1302,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 65,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 66,
@@ -1322,9 +1322,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 66,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 67,
@@ -1342,9 +1342,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 67,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 68,
@@ -1362,9 +1362,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 68,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 69,
@@ -1382,9 +1382,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 69,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 70,
@@ -1402,9 +1402,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 70,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 71,
@@ -1422,9 +1422,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 71,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 72,
@@ -1442,9 +1442,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 72,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 73,
@@ -1462,9 +1462,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 73,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 74,
@@ -1482,9 +1482,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 74,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 75,
@@ -1502,9 +1502,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 75,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 76,
@@ -1522,9 +1522,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 76,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 77,
@@ -1542,9 +1542,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 77,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 78,
@@ -1562,9 +1562,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 78,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 79,
@@ -1582,9 +1582,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 79,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 80,
@@ -1602,9 +1602,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 80,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 81,
@@ -1622,9 +1622,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 81,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 82,
@@ -1642,9 +1642,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 82,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 83,
@@ -1662,9 +1662,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 83,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 84,
@@ -1682,9 +1682,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 84,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 85,
@@ -1702,9 +1702,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 85,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 86,
@@ -1722,9 +1722,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 86,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 87,
@@ -1742,9 +1742,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 87,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 88,
@@ -1762,9 +1762,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 88,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 89,
@@ -1782,9 +1782,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 89,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 90,
@@ -1802,9 +1802,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 90,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 91,
@@ -1822,9 +1822,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 91,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 92,
@@ -1842,9 +1842,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 92,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 93,
@@ -1862,9 +1862,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 93,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 94,
@@ -1882,9 +1882,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 94,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 95,
@@ -1902,9 +1902,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 95,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 96,
@@ -1922,9 +1922,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 96,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 97,
@@ -1942,9 +1942,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 97,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 98,
@@ -1962,9 +1962,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 98,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 99,
@@ -1982,9 +1982,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 99,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 100,
@@ -2002,9 +2002,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 100,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 101,
@@ -2022,9 +2022,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 101,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 102,
@@ -2042,9 +2042,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 102,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 103,
@@ -2062,9 +2062,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 103,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 104,
@@ -2082,9 +2082,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 104,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 105,
@@ -2102,9 +2102,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 105,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 106,
@@ -2122,9 +2122,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 106,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 107,
@@ -2142,9 +2142,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 107,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 108,
@@ -2162,9 +2162,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 108,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 109,
@@ -2182,9 +2182,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 109,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 110,
@@ -2202,9 +2202,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 110,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 111,
@@ -2222,9 +2222,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 111,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 112,
@@ -2242,9 +2242,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 112,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 113,
@@ -2262,9 +2262,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 113,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 114,
@@ -2282,9 +2282,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 114,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 115,
@@ -2302,9 +2302,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 115,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 116,
@@ -2322,9 +2322,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 116,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 117,
@@ -2342,9 +2342,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 117,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 118,
@@ -2362,9 +2362,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 118,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 119,
@@ -2382,9 +2382,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 119,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 120,
@@ -2402,9 +2402,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 120,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 121,
@@ -2422,9 +2422,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 121,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 122,
@@ -2442,9 +2442,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 122,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 123,
@@ -2462,9 +2462,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 123,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 124,
@@ -2482,9 +2482,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 124,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 125,
@@ -2502,9 +2502,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 125,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 126,
@@ -2522,9 +2522,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 126,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 127,
@@ -2542,9 +2542,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 127,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             },
             {
                 "index": 128,
@@ -2562,9 +2562,9 @@
                     4.7,
                     4.7
                 ],
+                "sensitivity": 1000.0,
                 "pin": 128,
-                "units": "mm",
-                "sensitivity": 1000.0
+                "units": "mm"
             }
         ],
         "frequency": 180000.0,
