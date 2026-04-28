@@ -68,37 +68,11 @@ The user JSON files contain bcrypt password hashes. To get started, an example a
 
 ## Cloning
 
-This repository contains large files tracked with Git LFS. To clone:
+This repository contains large files tracked with Git LFS. Install Git LFS first if you haven't already — see GitHub's [installation guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Then:
 
-#### Step 1
-
-Make sure Git LFS is installed:
-
-```cmd
-git lfs install
-```
-
-#### Step 2
-
-Clone the sample database repository:
-
-```cmd
+```bash
 git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git
-```
-
-#### Step 3
-
-Go into the repo:
-
-```cmd
 cd openlifu-sample-database
-```
-
-#### Step 4
-
-Pull the large files:
-
-```cmd
 git lfs pull
 ```
 
@@ -129,11 +103,7 @@ print(f"Elements: {len(transducer['elements'])}")
 
 ## Git LFS
 
-Large binary files (`.obj`, `.stl`, `.nii`, `.nii.gz`, `.nc`, `.vtk`, `.zip`, `.mat`, `.h5`, `.nli`) are tracked with Git LFS. After cloning, run:
-
-```bash
-git lfs pull
-```
+Large binary files (`.obj`, `.stl`, `.nii`, `.nii.gz`, `.nc`, `.vtk`, `.zip`, `.mat`, `.h5`, `.nli`) are tracked with Git LFS.
 
 ## Related Repositories
 
