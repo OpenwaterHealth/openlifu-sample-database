@@ -6,6 +6,19 @@ Example database for the [OpenLIFU](https://github.com/OpenwaterHealth) (Low-Int
 
 This repository provides a reference database structure for OpenLIFU, intended for community contributors, researchers, and developers building OpenLIFU applications. All data is synthetic example data — no real patient information is included.
 
+
+## Cloning
+
+> **Note:** This step is mandatory to start the process of using the sample database.
+
+This repository contains large files tracked with Git LFS. Install Git LFS first if you haven't already — see GitHub's [installation guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Then:
+
+```bash
+git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git
+cd openlifu-sample-database
+git lfs pull
+```
+
 ## Directory Structure
 
 ```
@@ -65,16 +78,6 @@ Example subject records showing the full data hierarchy. Each subject can have m
 Example user account structures for system access control.
 
 The user JSON files contain bcrypt password hashes. To get started, an example admin user is provided: username `example_admin`, plaintext password `example`. A second user, `sample_admin`, also exists; its plaintext password is not published with this repository.
-
-## Cloning
-
-This repository contains large files tracked with Git LFS. Install Git LFS first if you haven't already — see GitHub's [installation guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Then:
-
-```bash
-git clone https://github.com/OpenwaterHealth/openlifu-sample-database.git
-cd openlifu-sample-database
-git lfs pull
-```
 
 ## Data Formats
 
