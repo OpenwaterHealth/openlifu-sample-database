@@ -6,5 +6,9 @@
         "openlifu_2x180_evt1", 
         "openlifu_2x400_evt0", 
         "openlifu_2x400_evt2b"
+        "openlifu_1x155",
+        "openlifu_1x400",
+        "openlifu_2x155",
+        "openlifu_2x400"        
     ]
 }
