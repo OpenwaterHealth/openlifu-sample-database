@@ -6,7 +6,7 @@
     "date_modified": "2026-04-27T23:00:33.611624",
     "protocol_id": "neuromod_demo",
     "volume_id": "MRI",
-    "transducer_id": "openlifu_2x400_evt1",
+    "transducer_id": "openlifu_2x400",
     "array_transform": {
         "matrix": [
             [
