@@ -10,9 +10,9 @@
     },
     "sequence": {
         "pulse_interval": 0.1,
-        "pulse_count": 300,
-        "pulse_train_interval": 30.0,
-        "pulse_train_count": 20
+        "pulse_count": 10,
+        "pulse_train_interval": 1.0,
+        "pulse_train_count": 30
     },
     "focal_pattern": {
         "target_pressure": 100000.0,
@@ -45,7 +45,7 @@
         "class": "Direct"
     },
     "apod_method": {
-        "max_angle": 30,
+        "max_angle": 30.0,
         "units": "deg",
         "class": "MaxAngle"
     },
@@ -175,7 +175,8 @@
         "planefit_dyaw_extent": 15.0,
         "planefit_dyaw_step": 3.0,
         "planefit_dpitch_extent": 15.0,
-        "planefit_dpitch_step": 3.0
+        "planefit_dpitch_step": 3.0,
+        "top_n_candidates": 4
     },
     "analysis_options": {
         "standoff_sound_speed": 1500.0,
@@ -189,7 +190,7 @@
         ],
         "mainlobe_radius": 0.008,
         "beamwidth_radius": 0.005,
-        "sidelobe_radius": 0.018,
+        "sidelobe_radius": 0.018000000000000002,
         "sidelobe_zmin": 0.015,
         "distance_units": "m",
         "param_constraints": {}
