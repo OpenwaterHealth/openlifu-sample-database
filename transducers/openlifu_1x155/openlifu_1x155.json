@@ -1250,7 +1250,7 @@
             1.0
         ]
     ],
-    "sensitivity": 3500.0,
+    "sensitivity": 2650,
     "crosstalk_frac": 0.12,
     "crosstalk_dist": 0.0051
 }

@@ -1227,7 +1227,7 @@
             "frequency": 155000.0,
             "units": "mm",
             "attrs": {},
-            "sensitivity": 3500.0,
+            "sensitivity": 2650.0,
             "crosstalk_frac": 0.12,
             "crosstalk_dist": 0.0051,
             "transform": [
@@ -2481,7 +2481,7 @@
             "frequency": 155000.0,
             "units": "mm",
             "attrs": {},
-            "sensitivity": 3500.0,
+            "sensitivity": 2650.0,
             "crosstalk_frac": 0.12,
             "crosstalk_dist": 0.0051,
             "transform": [
