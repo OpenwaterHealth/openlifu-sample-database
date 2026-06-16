@@ -1,0 +1,8 @@
+#  
+#  Wavefront MTL
+#  
+#  
+
+newmtl material_0
+map_Kd material_0.png
+#  

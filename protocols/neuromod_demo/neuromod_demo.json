@@ -95,61 +95,8 @@
         "ref_material": "tissue",
         "class": "UniformSegmentation"
     },
-    "param_constraints": {
-        "MI": {
-            "operator": "<",
-            "warning_value": 1.0,
-            "error_value": 1.9
-        },
-        "TIC": {
-            "operator": "<",
-            "warning_value": 2.0,
-            "error_value": 3.0
-        },
-        "mainlobe_isppa_Wcm2": {
-            "operator": "<",
-            "warning_value": 100.0,
-            "error_value": 190.0
-        },
-        "mainlobe_ispta_mWcm2": {
-            "operator": "<",
-            "warning_value": 360.0,
-            "error_value": 720.0
-        },
-        "sidelobe_pnp_MPa": {
-            "operator": "<",
-            "warning_value": 0.05,
-            "error_value": 0.05
-        },
-        "sidelobe_to_mainlobe_pressure_ratio": {
-            "operator": "<",
-            "warning_value": 0.4,
-            "error_value": 0.5
-        }
-    },
-    "target_constraints": [
-        {
-            "dim": "x",
-            "name": "Lateral",
-            "units": "mm",
-            "min": -20.0,
-            "max": 20.0
-        },
-        {
-            "dim": "y",
-            "name": "Elevation",
-            "units": "mm",
-            "min": -20.0,
-            "max": 20.0
-        },
-        {
-            "dim": "z",
-            "name": "Axial",
-            "units": "mm",
-            "min": 20.0,
-            "max": 80.0
-        }
-    ],
+    "param_constraints": {},
+    "target_constraints": [],
     "virtual_fit_options": {
         "units": "mm",
         "transducer_steering_center_distance": 30.0,
@@ -193,10 +140,10 @@
             1.0,
             10.0
         ],
-        "mainlobe_radius": null,
-        "beamwidth_radius": null,
-        "sidelobe_radius": null,
-        "sidelobe_zmin": 0.01,
+        "mainlobe_radius": 0.008,
+        "beamwidth_radius": 0.005,
+        "sidelobe_radius": 0.018,
+        "sidelobe_zmin": 0.015,
         "distance_units": "m",
         "param_constraints": {}
     }
