@@ -120,6 +120,11 @@
             "operator": "<",
             "warning_value": 0.05,
             "error_value": 0.05
+        },
+        "sidelobe_to_mainlobe_pressure_ratio": {
+            "operator": "<",
+            "warning_value": 0.4,
+            "error_value": 0.5
         }
     },
     "target_constraints": [
@@ -188,10 +193,10 @@
             1.0,
             10.0
         ],
-        "mainlobe_radius": 0.008,
-        "beamwidth_radius": 0.005,
-        "sidelobe_radius": 0.018000000000000002,
-        "sidelobe_zmin": 0.015,
+        "mainlobe_radius": null,
+        "beamwidth_radius": null,
+        "sidelobe_radius": null,
+        "sidelobe_zmin": 0.01,
         "distance_units": "m",
         "param_constraints": {}
     }
