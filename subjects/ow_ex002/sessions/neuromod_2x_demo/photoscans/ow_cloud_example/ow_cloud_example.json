@@ -4,5 +4,5 @@
     "model_filename": "ow_cloud_example.obj",
     "texture_filename": "material_0.png",
     "mtl_filename": "material.mtl",
-    "photoscan_approved": false
+    "photoscan_approved": true
 }
