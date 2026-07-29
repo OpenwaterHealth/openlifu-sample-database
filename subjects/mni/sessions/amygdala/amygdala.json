@@ -1,0 +1,190 @@
+{
+    "id": "amygdala",
+    "subject_id": "mni",
+    "name": "Amygdala",
+    "date_created": "2026-07-24T15:24:16.255817",
+    "date_modified": "2026-07-24T16:11:54.741710",
+    "protocol_id": "neuromod_deep_demo",
+    "volume_id": "ex001_T1_centered",
+    "transducer_id": "openlifu_2x400",
+    "solution_id": "neuromod_deep_demo_20260724_161130",
+    "array_transform": {
+        "matrix": [
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        ],
+        "units": "mm"
+    },
+    "targets": [
+        {
+            "id": "Target",
+            "name": "amy",
+            "color": [
+                0.121,
+                0.466,
+                0.705
+            ],
+            "radius": 1.0,
+            "position": [
+                22.0,
+                -4.0,
+                -16.0
+            ],
+            "dims": [
+                "R",
+                "A",
+                "S"
+            ],
+            "units": "mm"
+        }
+    ],
+    "markers": [],
+    "photoscans": [
+        "texturedMesh"
+    ],
+    "photocollections": [],
+    "attrs": {},
+    "virtual_fit_results": {
+        "Target": [
+            [
+                true,
+                {
+                    "matrix": [
+                        [
+                            -0.42546923273046483,
+                            0.5267047590985364,
+                            0.7359059546715505,
+                            -85.29991943179628
+                        ],
+                        [
+                            0.892436924373413,
+                            0.379079713441006,
+                            0.24465239397207442,
+                            -24.04798686992792
+                        ],
+                        [
+                            -0.1501075215126526,
+                            0.7608417131641291,
+                            -0.6313375300841672,
+                            61.18622273109506
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "units": "mm"
+                }
+            ]
+        ]
+    },
+    "transducer_tracking_results": [
+        {
+            "photoscan_id": "texturedMesh",
+            "transducer_to_volume_transform": {
+                "matrix": [
+                    [
+                        -0.9993058775501935,
+                        0.016449057662190545,
+                        0.03342440463655458,
+                        4.684658408168064
+                    ],
+                    [
+                        0.036760657987663245,
+                        0.5807643785258931,
+                        0.8132409460301333,
+                        -72.28346644845777
+                    ],
+                    [
+                        -0.006034659721742651,
+                        0.8139051603396751,
+                        -0.5809659351156469,
+                        61.46154766506292
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "units": "mm"
+            },
+            "photoscan_registration_id": "texturedMesh__pr__00",
+            "approval": true,
+            "id": "texturedMesh__Target__00",
+            "target_id": "Target"
+        }
+    ],
+    "photoscan_registrations": [
+        {
+            "photoscan_id": "texturedMesh",
+            "transform": {
+                "matrix": [
+                    [
+                        -186.56168468978316,
+                        11.755200006840502,
+                        167.6615792141708,
+                        129.16298190564635
+                    ],
+                    [
+                        -167.07102857049352,
+                        -40.28370258572099,
+                        -183.080164912705,
+                        -205.5075565507721
+                    ],
+                    [
+                        18.326518605231744,
+                        -247.5740104390301,
+                        37.75049850038721,
+                        -382.79737440236715
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "units": "mm"
+            },
+            "approval": true,
+            "id": "texturedMesh__pr__00"
+        }
+    ],
+    "solutions": [
+        {
+            "solution_id": "neuromod_deep_demo_20260724_161130",
+            "protocol_id": "neuromod_deep_demo",
+            "target_id": "Target",
+            "transducer_id": "openlifu_2x400",
+            "transducer_transform_source": "virtual_fit",
+            "approved": false,
+            "computed_at": "2026-07-24T16:11:49.942180"
+        }
+    ]
+}

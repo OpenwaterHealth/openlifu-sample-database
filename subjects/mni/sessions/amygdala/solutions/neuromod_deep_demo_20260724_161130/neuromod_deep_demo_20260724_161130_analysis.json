@@ -1,0 +1,112 @@
+{
+    "mainlobe_pnp_MPa": [
+        0.10000000149011612
+    ],
+    "mainlobe_isppa_Wcm2": [
+        0.3246753184607229
+    ],
+    "mainlobe_ispta_mWcm2": [
+        16.233765923036145
+    ],
+    "target_position_lat_mm": [
+        9.685123573606006
+    ],
+    "target_position_ele_mm": [
+        -14.753714484797129
+    ],
+    "target_position_ax_mm": [
+        102.17541070807245
+    ],
+    "focal_centroid_lat_mm": [
+        9.50758487364389
+    ],
+    "focal_centroid_ele_mm": [
+        -14.336114561572565
+    ],
+    "focal_centroid_ax_mm": [
+        99.37081425105022
+    ],
+    "beamwidth_lat_3dB_mm": [
+        3.626229326241652
+    ],
+    "beamwidth_ele_3dB_mm": [
+        8.912595922897676
+    ],
+    "beamwidth_ax_3dB_mm": [
+        33.63593821905472
+    ],
+    "beamwidth_lat_6dB_mm": [
+        4.876653231842221
+    ],
+    "beamwidth_ele_6dB_mm": [
+        12.834138128972652
+    ],
+    "beamwidth_ax_6dB_mm": [
+        51.38823894577804
+    ],
+    "sidelobe_pnp_MPa": [
+        0.04172508046030998
+    ],
+    "sidelobe_isppa_Wcm2": [
+        0.056525395751132204
+    ],
+    "sidelobe_to_mainlobe_pressure_ratio": [
+        0.41725079838557844
+    ],
+    "sidelobe_to_mainlobe_intensity_ratio": [
+        0.17409822224589663
+    ],
+    "global_pnp_MPa": [
+        0.10000000149011612
+    ],
+    "global_isppa_Wcm2": [
+        0.3246753184607229
+    ],
+    "global_ispta_mWcm2": 16.233765923036145,
+    "MI": 0.1581138853644994,
+    "TIC": 0.0353448582653013,
+    "voltage_V": 3.833335287352571,
+    "p0_MPa": [
+        0.013416673505733999
+    ],
+    "focal_gain": [
+        7.453412460799487
+    ],
+    "power_W": 0.008482895907465761,
+    "duty_cycle_pulse_train_pct": 5.0,
+    "duty_cycle_sequence_pct": 5.0,
+    "sequence_duration_s": 30.0,
+    "estimated_tx_temperature_rise_C": 1.6095020068943076,
+    "param_constraints": {
+        "MI": {
+            "operator": "<",
+            "warning_value": 1.0,
+            "error_value": 1.9
+        },
+        "TIC": {
+            "operator": "<",
+            "warning_value": 2.0,
+            "error_value": 3.0
+        },
+        "mainlobe_isppa_Wcm2": {
+            "operator": "<",
+            "warning_value": 100.0,
+            "error_value": 190.0
+        },
+        "mainlobe_ispta_mWcm2": {
+            "operator": "<",
+            "warning_value": 360.0,
+            "error_value": 720.0
+        },
+        "sidelobe_pnp_MPa": {
+            "operator": "<",
+            "warning_value": 0.05,
+            "error_value": 0.05
+        },
+        "sidelobe_to_mainlobe_pressure_ratio": {
+            "operator": "<",
+            "warning_value": 0.4,
+            "error_value": 0.5
+        }
+    }
+}

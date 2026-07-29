@@ -1,0 +1,8 @@
+{
+    "id": "texturedMesh",
+    "name": "texturedMesh",
+    "model_filename": "texturedMesh.obj",
+    "texture_filename": "material_0.png",
+    "mtl_filename": "material.mtl",
+    "photoscan_approved": true
+}
