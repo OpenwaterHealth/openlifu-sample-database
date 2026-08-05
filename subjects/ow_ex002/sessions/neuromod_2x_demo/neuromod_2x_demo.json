@@ -7,7 +7,6 @@
     "protocol_id": "neuromod_demo",
     "volume_id": "000043",
     "transducer_id": "openlifu_2x400",
-    "solution_id": "",
     "array_transform": {
         "matrix": [
             [
