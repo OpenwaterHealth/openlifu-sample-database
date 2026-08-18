@@ -77,7 +77,10 @@ Example subject records showing the full data hierarchy. Each subject can have m
 
 Example user account structures for system access control.
 
-The user JSON files contain bcrypt password hashes. To get started, an example admin user is provided: username `example_admin`, plaintext password `example`. A second user, `sample_admin`, also exists; its plaintext password is not published with this repository.
+The user JSON files contain bcrypt password hashes. To get started, example admin users are provided:
+
+- username `example_admin`, password `example`
+- username `sample_admin`, password `SampleAdmin123`
 
 ## Data Formats
 
