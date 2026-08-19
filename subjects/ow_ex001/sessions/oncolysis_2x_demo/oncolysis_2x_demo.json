@@ -6,7 +6,7 @@
     "date_modified": "2026-04-27T23:00:35.124539",
     "protocol_id": "oncolysis_demo",
     "volume_id": "MRI",
-    "transducer_id": "openlifu_2x180_evt1",
+    "transducer_id": "openlifu_2x155",
     "array_transform": {
         "matrix": [
             [
