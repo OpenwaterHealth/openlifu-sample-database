@@ -96,7 +96,7 @@ Coordinates use the LPS (Left-Posterior-Superior) system, consistent with 3D Sli
 import json
 
 # Load a transducer configuration
-with open('transducers/openlifu_1x400_evt1/openlifu_1x400_evt1.json') as f:
+with open('transducers/openlifu_1x400_evt1/openlifu_1x400.json') as f:
     transducer = json.load(f)
 
 print(f"Transducer: {transducer['name']}")
