@@ -45,12 +45,11 @@ Configuration files and 3D models for OpenLIFU transducer arrays:
 
 | Transducer ID | Name | Frequency |
 |---------------|------|-----------|
-| openlifu_1x180_evt1 | OpenLIFU 1x 180kHz Demo | 180 kHz |
-| openlifu_1x400_evt1 | OpenLIFU 1x 400kHz EVT1 | 400 kHz |
-| openlifu_2x180_evt1 | OpenLIFU 2x 180kHz EVT1 | 180 kHz |
-| openlifu_2x400_evt0 | OpenLIFU 2x 400kHz EVT0 | 400 kHz |
-| openlifu_2x400_evt1 | OpenLIFU 2x 400kHz EVT1 | 400 kHz |
-| openlifu_2x400_evt2b | OpenLIFU 2x 400kHz EVT2b | 400 kHz |
+| openlifu_1x155 | OpenLIFU 1x 155kHz | 155 kHz |
+| openlifu_1x400 | OpenLIFU 1x 400kHz | 400 kHz |
+| openlifu_2x155 | OpenLIFU 2x 155kHz | 155 kHz |
+| openlifu_2x400 | OpenLIFU 2x 400kHz | 400 kHz |
+
 
 Each transducer folder contains a `.json` configuration (element positions, orientations) and `.obj` 3D models (body and surface meshes in LPS coordinates).
 
@@ -61,7 +60,7 @@ Treatment protocol definitions:
 | Protocol | Application | Frequency | Pulse Duration | Target Pressure |
 |----------|-------------|-----------|----------------|-----------------|
 | neuromod_demo | Neuromodulation | 400 kHz | 5 ms | 100 kPa |
-| oncolysis_demo | Oncolysis | 180 kHz | 40 ms | 73 kPa |
+| oncolysis_demo | Oncolysis | 155 kHz | 40 ms | 73 kPa |
 
 ### Subjects (`/subjects/`)
 
@@ -100,7 +99,7 @@ Coordinates use the LPS (Left-Posterior-Superior) system, consistent with 3D Sli
 import json
 
 # Load a transducer configuration
-with open('transducers/openlifu_1x400_evt1/openlifu_1x400_evt1.json') as f:
+with open('transducers/openlifu_1x400/openlifu_1x400.json') as f:
     transducer = json.load(f)
 
 print(f"Transducer: {transducer['name']}")

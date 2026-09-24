@@ -1,0 +1,9 @@
+{
+    "id": "sample_operator",
+    "password_hash": "$2b$12$VFkRYE0.9ymsU415PiagLe7AQ1jZAHehBU.DGIW9S6CIso4PCuSCK",
+    "roles": [
+        "operator"
+    ],
+    "name": "Sample Operator",
+    "description": ""
+}
