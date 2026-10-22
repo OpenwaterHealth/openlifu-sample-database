@@ -82,7 +82,6 @@ Example user account structures for system access control.
 
 The user JSON files contain bcrypt password hashes. To get started, example admin users are provided:
 
-- username `example_admin`, password `example`
 - username `sample_admin`, password `SampleAdmin123`
 
 ## Data Formats
