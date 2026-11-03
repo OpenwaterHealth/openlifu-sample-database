@@ -4,7 +4,7 @@
 
 CAUTION - The system described here has not been evaluated by the FDA and is not designed for the treatment or diagnosis of any disease. It is provided AS-IS, with no warranties. User assumes all liability and responsibility for identifying and mitigating risks associated with using this software.
 
-Example database for the [OpenLIFU](https://github.com/OpenwaterHealth) (Low-Intensity Focused Ultrasound) platform. This repository contains transducer configurations, treatment protocols, example subject records with session data, and user account structures.
+Example database for the [OpenLIFU](https://github.com/OpenwaterHealth) (Low-Intensity Focused Ultrasound) platform. This repository contains transducer configurations, sample sonication protocols, example subject records with session data, and user account structures.
 
 ## Purpose
 
@@ -27,7 +27,7 @@ git lfs pull
 
 ```
 .
-├── protocols/          # Treatment protocol definitions
+├── protocols/          # Sonication protocol definitions
 ├── subjects/           # Subject records, sessions, and derived data
 │   └── <subject_id>/
 │       ├── sessions/
@@ -35,7 +35,7 @@ git lfs pull
 │       │       ├── photocollections/   # Raw photo sets for 3D reconstruction
 │       │       ├── photoscans/         # Reconstructed 3D meshes (.obj, .mtl, .png)
 │       │       ├── solutions/          # Simulation results (.json, .nc)
-│       │       └── runs/               # Treatment run logs and snapshots
+│       │       └── runs/               # Research run logs and snapshots
 │       └── volumes/                    # Imaging volumes (NIfTI)
 ├── transducers/        # Transducer array configurations and 3D models
 └── users/              # User account structures
@@ -59,7 +59,7 @@ Each transducer folder contains a `.json` configuration (element positions, orie
 
 ### Protocols (`/protocols/`)
 
-Treatment protocol definitions:
+Sonication protocol definitions:
 
 | Protocol | Application | Frequency | Pulse Duration | Target Pressure |
 |----------|-------------|-----------|----------------|-----------------|
@@ -68,12 +68,12 @@ Treatment protocol definitions:
 
 ### Subjects (`/subjects/`)
 
-Example subject records showing the full data hierarchy. Each subject can have multiple treatment sessions, and each session can include:
+Example subject records showing the full data hierarchy. Each subject can have multiple sonication sessions, and each session can include:
 
 - **Photocollections** — raw photo sets (JPEG) used for photogrammetric 3D reconstruction of the subject's head
 - **Photoscans** — reconstructed 3D mesh outputs (OBJ/MTL/PNG texture)
 - **Solutions** — acoustic simulation results stored as JSON metadata and NetCDF (`.nc`) data files
-- **Runs** — treatment execution logs with protocol and session snapshots
+- **Runs** — research execution logs with protocol and session snapshots
 - **Volumes** — medical imaging data (NIfTI format)
 
 ### Users (`/users/`)
